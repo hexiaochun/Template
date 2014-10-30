@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg_color"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="vertical" >
+  	<RelativeLayout 
+  	    android:id="@+id/peotry_item_rl_layout"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_margin="10dp"
+  	    android:background="@drawable/peotry_item_bg"
+  	    android:clickable="true"
+  	    android:minHeight="50dp"
+  	    android:paddingBottom="5dp"
+  	    >
+  	    <ImageView 
+  	        android:id="@+id/peotry_image"
+  	        android:layout_margin="10dp"
+  	        android:layout_width="80dp"
+  	        android:layout_height="80dp"
+  	        android:scaleType="centerCrop"
+  	        android:src="@drawable/ic_launcher"
+  	        />
+  	    <TextView 
+  	        android:id="@+id/peotry_title"
+  	        android:layout_width="wrap_content"
+  	        android:layout_marginRight="10dp"
+  	        android:layout_toRightOf="@+id/peotry_image"
+  	        android:layout_alignTop="@+id/peotry_image"
+  	        android:layout_height="wrap_content"
+  	        android:singleLine="true"
+  	        android:text="古诗改成三句半,笑出眼泪,值得深思!!!"
+  	        />
+  	    
+  	    <TextView 
+  	        android:id="@+id/peotry_content"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:layout_alignLeft="@+id/peotry_title"
+  	        android:layout_below="@+id/peotry_title"
+  	        android:layout_marginTop="5dp"
+  	        android:textColor="@android:color/darker_gray"
+  	        android:layout_marginRight="10dp"
+  	        android:textSize="12sp"
+  	        android:lines="2"
+  	        android:text="锄禾日当午, 汗滴禾下土. 谁知盘中餐, 有毒. 白日依山尽, 黄河入海流. 欲穷千里目, 有雾. 日照香炉生紫烟, 遥看瀑布挂前川"
+  	        />
+  	    
+  	    <TextView 
+  	        android:id="@+id/peotry_time"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="2014.11.12"
+  	        android:layout_alignBottom="@+id/peotry_image"
+  	        android:layout_alignLeft="@+id/peotry_title"
+  	        android:textSize="12sp"
+  	        android:textColor="@android:color/darker_gray"
+  	        />
+  	     <TextView 
+  	         android:id="@+id/peotry_source"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:text="古诗词"
+  	        android:layout_alignBottom="@+id/peotry_image"
+  	        android:layout_alignParentRight="true"
+  	        android:layout_marginRight="15dp"
+  	        android:textSize="12sp"
+  	        android:textColor="@android:color/darker_gray"
+  	        />
+  	</RelativeLayout>  
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_tab" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/main_tab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/activity_main_tab"
+        android:orientation="horizontal" >
+        <RadioGroup 
+            android:id="@+id/main_radio_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <RadioButton 
+                android:id="@+id/tab_one_day"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/tab_text_color"
+                android:text="@string/oneDay"
+                />
+            <RadioButton 
+                android:id="@+id/tab_peotry"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/tab_text_color"
+                android:text="@string/poetryTaste"
+                />
+            <RadioButton 
+                android:id="@+id/tab_setting"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/tab_text_color"
+                android:text="@string/mySetting"
+                />
+            
+        </RadioGroup>
+        
+    </LinearLayout>
+
+</RelativeLayout>
