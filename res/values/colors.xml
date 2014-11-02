@@ -12,6 +12,7 @@
     <color name="block_column_1">#ff0fabff</color>
     <color name="block_column_2">#ffdf1831</color>
     <color name="block_column_3">#ff009939</color>
+<<<<<<< HEAD
     <color name="activity_bg_color">#F2EEE9</color>
     <color name="activity_main_tab">#D8D7C3</color>
     
@@ -28,4 +29,7 @@
     <color name="tab_text_check">#00B07D</color>
     <color name="tab_text_uncheck">#80000000</color>
     
+=======
+
+>>>>>>> ad62b74a1712027de111fca6d6beece190a11a54
 </resources>

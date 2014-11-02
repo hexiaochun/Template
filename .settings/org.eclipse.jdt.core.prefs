@@ -1,5 +1,9 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.6
 org.eclipse.jdt.core.compiler.compliance=1.6
 org.eclipse.jdt.core.compiler.processAnnotations=enabled
 org.eclipse.jdt.core.compiler.source=1.6
+=======
+org.eclipse.jdt.core.compiler.processAnnotations=enabled
+>>>>>>> ad62b74a1712027de111fca6d6beece190a11a54

@@ -3,7 +3,13 @@ package com.spring.app;
 import android.app.Application;
 import android.content.Context;
 import android.graphics.Bitmap;
+<<<<<<< HEAD
 import android.os.Handler;
+=======
+import android.os.Build;
+import android.os.Handler;
+import android.os.StrictMode;
+>>>>>>> ad62b74a1712027de111fca6d6beece190a11a54
 import android.text.TextUtils;
 
 import com.android.volley.Request;
@@ -58,15 +64,26 @@ public class UILApplication extends Application {
 	@Override
 	public void onCreate() {
 		
+<<<<<<< HEAD
 //		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
 //			StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectAll().penaltyDialog().build());
 //			StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectAll().penaltyDeath().build());
 //		}
+=======
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+			StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectAll().penaltyDialog().build());
+			StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectAll().penaltyDeath().build());
+		}
+>>>>>>> ad62b74a1712027de111fca6d6beece190a11a54
 
 		super.onCreate();
 		
 		mInstance = this;
+<<<<<<< HEAD
 		//Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+=======
+		//Í¼Æ¬¼ÓÔØÆ÷
+>>>>>>> ad62b74a1712027de111fca6d6beece190a11a54
 		initImageLoader(getApplicationContext());
 	}
 	
